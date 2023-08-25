@@ -1,0 +1,51 @@
+.hotelcard-container{
+    width:20rem;
+    border-radius: 4px;
+    background-color: var(background-color);
+
+}
+
+.img{
+    width: 100%;
+    height: 15rem;
+    object-fit: cover;
+    border-radius: 4px;
+
+}
+
+.hotelcard-details{
+    color: azure;
+    padding: 8px;
+
+}
+
+.location{
+    font-weight: small;
+    color: black;
+}
+
+.rating{
+    margin-left: auto;
+    color: black;
+}
+
+.hotelname, .pricedetails{
+    color: black;
+    font-weight: small;
+    padding: 0 4px 8px 4px;
+}
+
+.button,.btn-wishlist{
+    padding: 1.25rem;
+    top: 4px;
+    right: 8px;
+    
+}
+
+.favourite{
+    color: rgb(92, 29, 217);
+}
+
+.fav-selected{
+    color: red;
+}

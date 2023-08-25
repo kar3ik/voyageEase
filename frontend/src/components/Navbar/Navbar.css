@@ -1,0 +1,73 @@
+.heading{
+    background-color: black;
+    padding: 8px 3rem;
+    border-bottom: 1px solid var(--accent-color);
+    justify-content: space-between;
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+}
+
+.heading-title{
+    font: 1.75rem sans-serif;
+    color: azure;
+    padding: 0;
+
+}
+
+.nav{
+    border: 1px solid;
+    border-radius: 4px;
+}
+
+.nav:hover {
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Slightly raised shadow on hover */
+}
+
+.profile-option{
+    color: white;
+    font-size: 2.5rem;
+
+}
+
+.menu{
+    border-right: 1px solid var(--accent-color) ;
+
+}
+
+.people{
+    background-color: rgb(13, 13, 14);
+    border-radius: 0 4px  4px 0 ;
+}
+
+.cursor-pointer:hover {
+    cursor: pointer; /* Change to pointer cursor on hover */
+    transform: scale(1.02); /* Slightly scale up on hover */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Slightly raised shadow on hover */
+  }
+
+
+.form-container{
+    background-color: cornsilk;
+    height: 2.75rem;
+    border-radius: 4px;
+}  
+
+.form-option{
+    font-size: medium;
+    padding: 8px;
+    color: black;
+}
+
+.border-right-1px{
+    border-right: 1px solid var(--accent-color);
+    height: 70%;
+}
+
+.search{
+    background-color: rgb(11, 49, 58);
+    height: 100%;
+    padding: 8px;
+    font-size: 1.85rem;
+}
+
